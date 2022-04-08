@@ -1,0 +1,13 @@
+@keyframes animBorder{
+    25%{
+        padding:0px;
+	border-radius:20px;
+box-shadow: -40px 40px  #d62a3d;
+    }
+}
+.box{
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+  animation-name: animBorder;
+ 
+}
